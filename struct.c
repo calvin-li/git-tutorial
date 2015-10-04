@@ -8,8 +8,8 @@ struct student {
 };
 
 void main(void){
-   struct student sam = {85, 90, 88};
-   struct student tom = {93, 88, 91};
+   struct student sam = {85, 90, 88, -1};
+   struct student tom = {93, 88, 91, -1};
    struct student *he = &tom;  
    
    tom = sam;
