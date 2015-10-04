@@ -8,8 +8,12 @@ struct student {
 };
 
 void main(void){
-   struct student sam = {85, 90, 88};
-   struct student tom = {93, 88, 91};
+   struct student sam = {85, 90, 88, 0};
+   sam.avg = (sam.mid+sam.final+sam.hws) / 3.0;
+   
+   struct student tom = {93, 88, 91, 0};
+   tom.avg = (tom.mid+tom.final+tom.hws) / 3.0;
+   
    struct student *he = &tom;  
    
    tom = sam;
