@@ -4,6 +4,7 @@ struct student {
   int  mid;
   int final;
   int hmws;
+  float avg;
 };
 
 void main(void){
