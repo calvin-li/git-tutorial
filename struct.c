@@ -15,6 +15,8 @@ void main(void){
    tom = sam;
    
    printf("tom = {%d, %d, %d}\n",  tom.mid, tom.final, tom.hmws); 
+   
+   printf("sam = {%d, %d, %d}\n",  sam.mid, sam.final, sam.hmws); 
 
    printf("*he = {%d, %d, %d}\n",  he->mid, he->final, he->hmws); 
 
