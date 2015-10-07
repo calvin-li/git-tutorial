@@ -26,9 +26,3 @@ void main(void){
 
    printf("*he = {%d, %d, %d}\n",  (*he).mid, (*he).final, (*he).hmws); 
 }
-
-
-
-
-
-
